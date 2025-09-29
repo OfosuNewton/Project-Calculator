@@ -1,0 +1,98 @@
+body {
+                  background: azure;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh;
+                  
+                  
+                  
+                }
+                .calc-outline {
+                    border: 2px black solid;
+                    width: 500px;
+                    height: 470px;
+                    margin: 0px auto;
+                    margin-top: 30px;
+                    border-top: 20px   solid;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    background-color: whitesmoke;
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+                    
+                }
+                h1 {
+                    text-align: center;
+                
+
+                }
+
+                .calc-screen-container {
+                    display: flex;
+                    gap: 24px;
+                    /* justify-content: space-around; */
+                    padding-bottom: 10px;
+                    
+                }
+
+                #calc-screen {
+                    margin-left: 0;
+                    margin-right: 0;
+                    font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: bold;
+                    padding-left: px;
+                    height: 40px;
+                    min-width: 350px; 
+                    border: 5px grey solid;
+                }
+                .display {
+                    color: black;
+                }
+
+                /* styling clear btn */
+                #cls-btn {
+                    border: 3px black solid;
+                    padding: 10px;
+                    border-radius: 20px;
+                    margin-left: 15px;
+                    transition: background-color 0.5s;
+
+                }
+                #cls-btn:hover {
+                    color: white;
+                    background-color: red;
+                    border-color: whitesmoke;
+                }
+
+                #cls-btn:active {
+                    background-color: red;
+                    color: white;
+                }
+
+                /* Styling num-btns */
+                .num-btn {
+                    display: grid;
+                    gap: 9px;
+                    row-gap: 13px;
+                    
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    /* grid-template-rows:  */
+                    padding: 30px;
+                    
+                }
+
+                .numbers {
+                    padding: 20px;
+                    cursor: pointer;
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+                    transition:  background-color 0.5s, opacity 0.5s;
+
+                }
+                 .numbers:hover {
+                    background-color: black;
+                    color: white;
+                 }
+                 .numbers:active {
+                    opacity: 0.4;
+                 }
